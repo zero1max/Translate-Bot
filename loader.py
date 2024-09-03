@@ -5,6 +5,6 @@ from aiogram.client.default import DefaultBotProperties
 
 dp = Dispatcher()
 router = Router()
-bot = Bot(token="6648695202:AAGd2ZrIPqAYJq8lATlKAasadMYI9pUsgdg",
+bot = Bot(token="YOUR_BOT_TOKEN",
         default=DefaultBotProperties(parse_mode=ParseMode.HTML))
 dp.include_router(router=router)
