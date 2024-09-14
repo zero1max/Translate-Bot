@@ -22,6 +22,7 @@ async def translate_text(text):
 async def start(msg: Message):
     await msg.answer_sticker('CAACAgIAAxkBAAMDZtcpgyJiPVJSrWchsGesCx3nHxwAAm4AA0G1VgzQpYRy5txaiDUE')
     await msg.answer("Assalomu aleykum rahmatulloh!😊")
+    await msg.answer("Matn yoki so'z yuboring!")
 
 @router.message(lambda msg: msg.text is not None)
 async def handle_translation(msg: Message):
